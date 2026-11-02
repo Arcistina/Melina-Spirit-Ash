@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "mod_version": "1.1.0",
+  "ids": {
+    "goods_base": 280000,
+    "summon_effect_base": 280000,
+    "buddy": 28000000,
+    "npc": 121801000,
+    "think": 121801000,
+    "growth_effect_base": 1280000,
+    "spirit_common_effect": 1280100,
+    "shop_row": 101882,
+    "shop_stock_flag": 280820
+  },
+  "records": [
+    {
+      "category": "生命",
+      "metric": "生命值",
+      "unit": "点",
+      "base": 1920,
+      "growth": [
+        1.281,
+        1.813,
+        2.266,
+        2.406,
+        2.688,
+        3.25,
+        4.125,
+        5.586,
+        7.047,
+        7.422
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "伤害",
+      "metric": "物理攻击基础系数",
+      "unit": "倍",
+      "base": 1,
+      "growth": [
+        1.2021978,
+        1.4945055,
+        1.7582418,
+        1.8307692,
+        2,
+        2.279121,
+        2.6725276,
+        3.3160439,
+        3.745055,
+        3.7956045
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "伤害",
+      "metric": "魔力攻击基础系数",
+      "unit": "倍",
+      "base": 1,
+      "growth": [
+        1.2021978,
+        1.4945055,
+        1.7582418,
+        1.8307692,
+        2,
+        2.279121,
+        2.6725276,
+        3.3160439,
+        3.745055,
+        3.7956045
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "伤害",
+      "metric": "火攻击基础系数",
+      "unit": "倍",
+      "base": 1,
+      "growth": [
+        1.2021978,
+        1.4945055,
+        1.7582418,
+        1.8307692,
+        2,
+        2.279121,
+        2.6725276,
+        3.3160439,
+        3.745055,
+        3.7956045
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "伤害",
+      "metric": "雷攻击基础系数",
+      "unit": "倍",
+      "base": 1,
+      "growth": [
+        1.2021978,
+        1.4945055,
+        1.7582418,
+        1.8307692,
+        2,
+        2.279121,
+        2.6725276,
+        3.3160439,
+        3.745055,
+        3.7956045
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "伤害",
+      "metric": "圣攻击基础系数",
+      "unit": "倍",
+      "base": 1,
+      "growth": [
+        1.2021978,
+        1.4945055,
+        1.7582418,
+        1.8307692,
+        2,
+        2.279121,
+        2.6725276,
+        3.3160439,
+        3.745055,
+        3.7956045
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "减伤",
+      "metric": "物理（普通）目标减伤率",
+      "unit": "%",
+      "base": 0,
+      "growth": [
+        1.026,
+        1.053,
+        1.079,
+        1.093,
+        1.106,
+        1.119,
+        1.146,
+        1.172,
+        1.186,
+        1.2
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "减伤",
+      "metric": "物理（斩击）目标减伤率",
+      "unit": "%",
+      "base": 0,
+      "growth": [
+        1.026,
+        1.053,
+        1.079,
+        1.093,
+        1.106,
+        1.119,
+        1.146,
+        1.172,
+        1.186,
+        1.2
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "减伤",
+      "metric": "物理（打击）目标减伤率",
+      "unit": "%",
+      "base": 0,
+      "growth": [
+        1.026,
+        1.053,
+        1.079,
+        1.093,
+        1.106,
+        1.119,
+        1.146,
+        1.172,
+        1.186,
+        1.2
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "减伤",
+      "metric": "物理（突刺）目标减伤率",
+      "unit": "%",
+      "base": 0,
+      "growth": [
+        1.026,
+        1.053,
+        1.079,
+        1.093,
+        1.106,
+        1.119,
+        1.146,
+        1.172,
+        1.186,
+        1.2
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "减伤",
+      "metric": "魔力目标减伤率",
+      "unit": "%",
+      "base": 0.2,
+      "growth": [
+        1.026,
+        1.053,
+        1.079,
+        1.093,
+        1.106,
+        1.119,
+        1.146,
+        1.172,
+        1.186,
+        1.2
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "减伤",
+      "metric": "火目标减伤率",
+      "unit": "%",
+      "base": 0.2,
+      "growth": [
+        1.026,
+        1.053,
+        1.079,
+        1.093,
+        1.106,
+        1.119,
+        1.146,
+        1.172,
+        1.186,
+        1.2
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "减伤",
+      "metric": "雷目标减伤率",
+      "unit": "%",
+      "base": 0.2,
+      "growth": [
+        1.026,
+        1.053,
+        1.079,
+        1.093,
+        1.106,
+        1.119,
+        1.146,
+        1.172,
+        1.186,
+        1.2
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "减伤",
+      "metric": "圣目标减伤率",
+      "unit": "%",
+      "base": 0.4,
+      "growth": [
+        1.026,
+        1.053,
+        1.079,
+        1.093,
+        1.106,
+        1.119,
+        1.146,
+        1.172,
+        1.186,
+        1.2
+      ],
+      "immunity_mode": null
+    },
+    {
+      "category": "抗性",
+      "metric": "中毒抗性",
+      "unit": "点/免疫",
+      "base": 112,
+      "growth": [
+        1.0175,
+        1.035,
+        1.0525,
+        1.0615,
+        1.07,
+        1.079,
+        1.0965,
+        1.114,
+        1.1225,
+        1.1925
+      ],
+      "immunity_mode": "数值"
+    },
+    {
+      "category": "抗性",
+      "metric": "猩红腐败抗性",
+      "unit": "点/免疫",
+      "base": 112,
+      "growth": [
+        1.0175,
+        1.035,
+        1.0525,
+        1.0615,
+        1.07,
+        1.079,
+        1.0965,
+        1.114,
+        1.1225,
+        1.1925
+      ],
+      "immunity_mode": "数值"
+    },
+    {
+      "category": "抗性",
+      "metric": "出血抗性",
+      "unit": "点/免疫",
+      "base": 112,
+      "growth": [
+        1.0175,
+        1.035,
+        1.0525,
+        1.0615,
+        1.07,
+        1.079,
+        1.0965,
+        1.114,
+        1.1225,
+        1.1925
+      ],
+      "immunity_mode": "数值"
+    },
+    {
+      "category": "抗性",
+      "metric": "冻伤抗性",
+      "unit": "点/免疫",
+      "base": 112,
+      "growth": [
+        1.0175,
+        1.035,
+        1.0525,
+        1.0615,
+        1.07,
+        1.079,
+        1.0965,
+        1.114,
+        1.1225,
+        1.1925
+      ],
+      "immunity_mode": "数值"
+    },
+    {
+      "category": "抗性",
+      "metric": "睡眠抗性",
+      "unit": "点/免疫",
+      "base": null,
+      "growth": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "immunity_mode": "免疫"
+    },
+    {
+      "category": "抗性",
+      "metric": "发狂抗性",
+      "unit": "点/免疫",
+      "base": null,
+      "growth": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "immunity_mode": "免疫"
+    },
+    {
+      "category": "抗性",
+      "metric": "咒死抗性",
+      "unit": "点/免疫",
+      "base": null,
+      "growth": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "immunity_mode": "免疫"
+    }
+  ],
+  "notes": [
+    "Base values with level multipliers +1 through +10; +0 multiplier is 1.",
+    "Rot, blood and frost resistance curves use the completed poison curve where originally blank.",
+    "Immunity is implemented with native immunity settings, not only a numeric threshold."
+  ]
+}

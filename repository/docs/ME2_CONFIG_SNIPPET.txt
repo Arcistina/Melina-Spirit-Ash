@@ -1,0 +1,18 @@
+Melina Spirit Ash 1.1.0 - ModEngine2 manual installation
+This is an insertion guide, NOT a replacement config_eldenring.toml.
+
+Inside the EXISTING [extension.mod_loader] mods = [...] array, add:
+{ enabled = true, name = "MelinaAshes", path = "mod/MelinaAshes" }
+
+Inside the EXISTING [modengine] external_dlls = [...] array, add:
+"mod/MelinaAshes/MelinaIcons.dll"
+
+Separate array entries with commas. Keep other DLLs, mods, and save settings.
+The mod_loader must have enabled = true and loose_params = false.
+The mod's files must be under your ModEngine2 folder at mod/MelinaAshes/.
+Launch with the existing launchmod_eldenring.bat in that ModEngine2 folder.
+
+在已有的 mods 和 external_dlls 数组中分别加入上述资源和图标DLL条目。
+不要重复创建同名表/数组，也不要用此说明覆盖完整配置。
+资源目录和图标DLL必须同时加载；保留其他MOD及Alt Saves的原配置。
+本包使用ModEngine2手动安装，没有提供Vortex/FOMOD安装器。

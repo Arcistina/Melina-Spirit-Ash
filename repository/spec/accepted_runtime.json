@@ -1,0 +1,59 @@
+{
+  "mod_version": "1.1.0",
+  "app": "1.17.2",
+  "regulation": "1.17.3",
+  "binder_version": "11730034",
+  "in_game_language": "Simplified Chinese",
+  "files": {
+    "regulation.bin": {
+      "size": 1926512,
+      "sha256": "423ff41335da6d9945eacb863efc30c66829ff88f1a1ae6299a8ac6badcf86a4"
+    },
+    "msg/zhocn/item.msgbnd.dcx": {
+      "size": 184640,
+      "sha256": "aad89ccc1fc25b77c7b194134e2e995a7d115879ea549f231737abb4ff0b9acc"
+    },
+    "msg/zhocn/item_dlc01.msgbnd.dcx": {
+      "size": 243472,
+      "sha256": "f1febe481d1f5bb66a2a199fcfb6adc67884bc5b930dfc2fe4dc13b3b8fdc693"
+    },
+    "msg/zhocn/item_dlc02.msgbnd.dcx": {
+      "size": 244224,
+      "sha256": "950a387d8816386a3f18f190e3a9f72e465a6ef16a06cd191b2a5af8fcee5e43"
+    },
+    "menu/hi/01_common.sblytbnd.dcx": {
+      "size": 20992,
+      "sha256": "201c90d01fbc3c9a73511e4c190c794deb2073249f26b1aeb4532a4001e66070"
+    },
+    "menu/low/01_common.sblytbnd.dcx": {
+      "size": 21136,
+      "sha256": "3a052c10d2a8acb1d07bfae61143b28f0fbe73171958d8023fbaa1aa75fb2d3c"
+    },
+    "menu/melina/large.tpf.dcx": {
+      "size": 589856,
+      "sha256": "27bf3ba5b6a8007e8c787e9a3c6b87df2c2b708d3ba1931e90705d4e63bfed82"
+    },
+    "menu/melina/small.rgba": {
+      "size": 102400,
+      "sha256": "128fb48fcbe13bd8f0ba370b6076a71f200310a45ed9e2c18a519acb75167b81"
+    },
+    "MelinaIcons.dll": {
+      "size": 38912,
+      "sha256": "da18cff154e585635f8f83dfaa7134707050a6e968a09e1440e05e11ec08c4ed"
+    }
+  },
+  "ui_asset_files": [
+    "menu/hi/01_common.sblytbnd.dcx",
+    "menu/low/01_common.sblytbnd.dcx",
+    "menu/melina/large.tpf.dcx",
+    "menu/melina/small.rgba"
+  ],
+  "supported_executable_sha256": "f9118fea2cfd8fa3901e8060bfadb1552cb2471771ded8a5b662c4e298ffb328",
+  "helper_source_sha256": {
+    "src/melina_icons/loader.c": "e39a0fef4e1e5ae20856bad99a9d98feac6fbdb6dea95913dec6702d2fadd450",
+    "src/melina_icons/native_272.h": "b7c2d7ad6b7b247c912f5b7d7763c21ac8cd50d712500533079e478dde7bbfa8",
+    "src/melina_icons/native_small.h": "5a2333eb9071563e3acc49d5ae016c03a08e19199c090496f3d30bf33021c39a",
+    "src/melina_icons/route.h": "34624b6fa3ca7a51826a60902bc23e230b3921aaf218f44f8670fc14c11720db",
+    "src/melina_icons/route_test.c": "5f5a45c802ebf9a6c03a926b2ca49d940ae33447f60a83db579c3e1b9013e25c"
+  }
+}
